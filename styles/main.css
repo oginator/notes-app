@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+.notes-list {
+    width: 1300px;
+    margin: 0 auto;
+    display: block;
+    height: 800px;
+    overflow-y: scroll;
+}
+.create-note {
+    text-align: center;
+    padding-top: 50px;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+.create-note input {
+    height: 40px;
+    margin: 10px;
+}
+.create-note button {
+    height: 46px;
+    width: 85px;
+    font-size: 17px;
+    background: lightskyblue;
+    border: none;
+}
+.error p {
+    color: red;
+    font-weight: bold;
+}
+.logout {
+    float: right;
+    position: relative;
+    right: 10px;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+}
